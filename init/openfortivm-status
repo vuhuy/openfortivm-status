@@ -1,0 +1,6 @@
+#!/sbin/openrc-run
+
+name="openfortivm-status"
+command="/usr/sbin/${SVCNAME}"
+pidfile="/run/$RC_SVCNAME.pid"
+command_background=true
